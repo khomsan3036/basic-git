@@ -1,0 +1,5 @@
+git checkout develop
+echo "Hello from develop" > conflict.txt
+git add conflict.txt
+git commit -m "เพิ่มไฟล์ conflict.txt ใน Branch develop"
+git push -u origin develop
