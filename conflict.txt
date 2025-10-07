@@ -1,0 +1,5 @@
+git checkout main
+echo "Hello from main" > conflict.txt
+git add conflict.txt
+git commit -m "เพิ่มไฟล์ conflict.txt ใน Branch main"
+git push origin main
